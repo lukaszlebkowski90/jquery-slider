@@ -1,0 +1,50 @@
+#carousel {
+    width: 480px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+ul {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    width: 480px;
+    height: 400px;
+}
+
+* {
+    text-align: center;
+    margin: 20px auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#arrow-prev {
+    left: 27.5%;
+}
+#arrow-next {
+    right: 27.5%;
+}
+#arrow-next, #arrow-prev {
+     width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: fuchsia;
+    line-height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 36%;  
+    cursor: pointer; 
+}
