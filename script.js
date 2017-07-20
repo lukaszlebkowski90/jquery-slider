@@ -1,4 +1,5 @@
-var arr = ["def", "qas", "wsx"];
-jQuery.each( arr, function( i, val ) {
-  $( "#" + val ).css({"color" : "blue"});
+$("p").css({"color" : "red"});
+var ignored = ["abc", "uio", "wsx", "pla"];
+jQuery.each( ignored, function( i, val ) {
+  $( "#" + val ).css({"color" : "black"});
 });
