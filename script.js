@@ -1,5 +1,5 @@
-$("p").css({"color" : "red"});
 var ignored = ["abc", "uio", "wsx", "pla"];
-jQuery.each( ignored, function( i, val ) {
-  $( "#" + val ).css({"color" : "black"});
+var notIgnored = ["def", "qas", "mok"];
+jQuery.each( notIgnored, function( i, val ) {
+  $( "#" + val ).css({"color" : "red"});
 });
