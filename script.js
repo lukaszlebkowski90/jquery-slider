@@ -5,10 +5,8 @@ var p = $("p");
     var cssObject = {color:"red"};
     var indexOfElement = ignored.indexOf(id);
       if (indexOfElement === -1) {
-        for (var x = 0; x < ignored.length; x++) {
-          p.filter('#' + ignored[x]).css(cssObject);
-        }  
-      }
+      }  
   });
+  
 
 
